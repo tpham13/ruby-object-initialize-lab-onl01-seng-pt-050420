@@ -4,7 +4,7 @@ class Dog
     @breed = breed 
   end 
   
-  def breed 
-    puts breed(breed = "Mutt") 
+  def breed(breed = "Mutt")  
+    puts "Mutt"
   end 
 end 
