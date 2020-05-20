@@ -4,6 +4,7 @@ class Dog
     @breed = breed 
   end 
   
-  if Dog.new 
+  def breed 
+    puts breed = "Mutt"
   end 
 end 
